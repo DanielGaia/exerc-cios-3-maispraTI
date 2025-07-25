@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <link rel="stylesheet" href="styles.css">
+</html>
+</head>
+<body>
+    <form>
+        <label for="Nome">Nome:</label>
+        <input type="text" id="Nome" nome="Nome" required>
+
+        <label for="E-mail">E-mail:</label>
+        <input type="email" id="E-mail" nome="E-mail" required>
+
+        <label for="Adress">Endereço Completo</label>
+        <input type="text" id="Adress" nome="Adress" required>  
+        
+        <label for="Tipo de Feedback">Tipo de Feedback:</label>
+        <select id="Tipo de Feedback" nome="Tipo de Feedback">
+            <option value="Elogio">Elogio</option>
+            <option value="Sugestão">Sugestão</option>
+            <option value="Reclamação">Reclamação</option>
+            <option value="Dúvida">Dúvida</option>
+        </select>
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
